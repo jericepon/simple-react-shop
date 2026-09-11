@@ -20,7 +20,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module resolution paths */
+    "paths": {
+      "@/*": ["./src/*"],
+    }
   },
   "include": ["src"]
 }
