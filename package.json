@@ -7,13 +7,16 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "backend": "json-server-auth ./backend/db.json -m ./node_modules/json-server-auth -r ./backend/routes.json --watch --port 3000"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
     "@tailwindcss/vite": "^4.3.3",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.2.6",
+    "json-server": "~0.17.4",
+    "json-server-auth": "^2.1.0",
     "lucide-react": "^1.45.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
