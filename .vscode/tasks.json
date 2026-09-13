@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    /**
+    dev
+    build
+    lint
+    preview
+    backend
+    */
+    {
+      "label": "Run Dev Server",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        // Make this the default build task
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Build Project",
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Lint Project",
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Preview Project",
+      "type": "npm",
+      "script": "preview",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Run Backend",
+      "type": "npm",
+      "script": "backend",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+  ]
+}
